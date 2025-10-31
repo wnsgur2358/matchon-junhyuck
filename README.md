@@ -22,7 +22,7 @@
 MatchOn은 사용자가 **운동 종목, 지역, 시간대**를 선택해  
 함께 운동할 사람을 실시간으로 매칭해주는 플랫폼입니다.  
 매칭 후에는 **실시간 채팅**으로 소통하며,  
-커뮤니티 게시판과 신고 시스템을 통해 **건전한 커뮤니티**를 유지합니다.
+커뮤니티 게시판과 신고 시스템을 통해 **건전하고 사용자 친화적인** 환경을 유지합니다.
 
 ---
 
@@ -34,10 +34,10 @@ MatchOn은 사용자가 **운동 종목, 지역, 시간대**를 선택해
 | **Framework** | Spring Boot 3.4, Spring Security, WebSocket |
 | **DB / ORM** | MySQL 8, JPA, Redis |
 | **Auth** | JWT + HttpOnly Cookie |
-| **Infra** | AWS EC2, RDS, S3 |
+| **Infra** | AWS EC2, RDS, S3, Docker |
 | **Frontend** | Thymeleaf, HTML, CSS, JavaScript |
 | **Build Tool** | Gradle |
-| **Etc** | Validation, AOP Logging, Redis(확장 고려) |
+| **Etc** | Validation, AOP Logging, Websoket |
 
 ---
 
@@ -60,7 +60,7 @@ MatchOn은 사용자가 **운동 종목, 지역, 시간대**를 선택해
 ### 🧭 관리자 페이지
 - 신고/정지 목록 관리  
 - 사용자 상태(활성/정지/탈퇴) 변경  
-- 게시글/댓글 차단 관리
+- 게시글/댓글 관리
 
 ---
 
